@@ -19,15 +19,17 @@
         <activity
             android:name=".LitepalDemoActivity"
             android:label="@string/title_activity_litepal_demo">
+        </activity>
+        <activity
+            android:name=".RetrofixDemoActivity"
+            android:label="@string/title_activity_retrofix_demo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity
-            android:name=".RetrofixDemoActivity"
-            android:label="@string/title_activity_retrofix_demo"></activity>
     </application>
 
 </manifest>
